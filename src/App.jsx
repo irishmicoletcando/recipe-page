@@ -10,7 +10,7 @@ export default function App() {
     <main className="space-y-5">
       <div className="m-0 p-0 overflow-hidden sm:rounded-2xl sm:m-10">
         <img
-          src="src/assets/images/image-omelette.jpeg"
+          src="/image-omelette.jpeg"
           alt="omelette image"
           className="w-full h-auto object-cover"
         />

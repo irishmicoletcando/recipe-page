@@ -3,7 +3,7 @@ import PreparationTime from "./components/PreparationTime"
 import Ingredients from "./components/Ingredients"
 import Instructions from "./components/Instructions"
 import Nutrition from "./components/Nutrition"
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 export default function App() {
   return (
@@ -24,6 +24,7 @@ export default function App() {
       <Nutrition />
       <br />
       <p className="text-sm text-center">Coded by: Irish Micole Cando</p>
+      <SpeedInsights />
     </main>
   )
 }

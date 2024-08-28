@@ -3,6 +3,7 @@ import PreparationTime from "./components/PreparationTime"
 import Ingredients from "./components/Ingredients"
 import Instructions from "./components/Instructions"
 import Nutrition from "./components/Nutrition"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function App() {
   return (
